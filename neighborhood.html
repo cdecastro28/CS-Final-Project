@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Neighborhood Walk</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 40%);
+      gap: 20px; 
+    }
+
+    .grid img {
+      width: 100%;
+      border: 2px solid #ccc; /* Small border */
+      border-radius: 5px; /* Rounded corners */
+      padding: 5px; /* Padding */
+    }
+
+    /* Additional style for the navigation image */
+    nav img {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#main">Skip to Main Content</a> 
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="neighborhood.html">My Hobbies</a></li>
+        <li><a href="parks.html">Places I've Been</a></li>
+      </ul>
+      <img src="images/cs-course-thumbnail-min.jpg" width="200"
+        alt="icon of woman with curly hair"> <!-- Added image in the nav -->
+    </nav>
+    <h1>My Hobbies</h1>
+  </header>
+  <main id="main"> 
+    <div class="grid">
+      <div class="image-container">
+        <img src="images/cs-course-reading-min.jpg"
+          alt="animation of woman reading" width="100">
+      </div>
+      <div class="image-container">
+        <img src="images/cs-course-boxing-min.jpg"
+          alt="animation of people boxing" width="100">
+      </div>
+      <div class="image-container">
+        <img src="images/cs-course-gaming-min.jpg"
+          alt="animation of person gaming on pc" width="100">
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>This page was originally created by Colleen van Lent for the <a
+        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+      Students are invited to make changes.</p>
+  </footer>
+
+</body>
+
+</html>
