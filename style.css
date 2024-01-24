@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #f0e1f5; /* Soft lavender */
+}
+
+nav {
+  background-color: #f7d9d9; /* Light pink */
+}
+
+main {
+  background-color: #c9c8f4; /* Pale lavender */
+  font-size: 18px;
+}
+
+footer {
+  background-color: #e57373; /* Light coral */
+}
+
+/* Style the h1 tag */
+h1 {
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  color: #b084b8; /* Medium lavender */
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Updated styles for the navigation */
+nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #e1cfe1; /* Soft lavender */
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #d1abd1; /* Light lavender */
+}
+
+nav img {
+  width: 10%;
+}
