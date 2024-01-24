@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Neighborhood Walk</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Add flex styles to the main section */
+    #main {
+      display: flex;
+      flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+      justify-content: space-around; /* Distribute space around the images */
+      align-items: center; /* Align items at the center of the cross axis */
+      gap: 20px; /* Add row gap */
+    }
+
+    #main img {
+    width: 50%; /* Set images to take full width of the container */
+    max-width: 200px; /* Set a maximum width for the images */
+    border: 2px solid #b19cd9; /* Add a small border */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    }
+
+    #main img:hover {
+      transform: scale(1.1); /* Scale the image on hover */
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#main">Skip to Main Content</a> 
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="neighborhood.html">My Hobbies</a></li>
+        <li><a href="parks.html">Places I've Been</a></li>
+      </ul>
+      <img src="images/cs-course-thumbnail-min.jpg" width="200"
+        alt="icon of woman with curly hair">
+    </nav>
+    <h1>Places I've Been</h1>
+  </header>
+  <main id="main"> 
+    <img src="images/cs-course-london-min.jpg" alt="drawing of london">
+    <img src="images/cs-course-rome-min.jpg" alt="stamp from rome">
+    <img src="images/cs-course-newyork-min.jpg" alt="drawing of New York">
+    <img src="images/cs-course-washington-min.jpg" alt="drawing of Washington State">
+    <img src="images/cs-course-nevada-min.JPG" alt="drawing of Nevada">
+  </main>
+  <footer>
+    <p>This page was originally created by Colleen van Lent for the <a
+        href="https://www.coursera.org/specializations/web-design"> Web Design for Everybody</a> Specialization.
+      Students are invited to make changes.</p>
+  </footer>
+
+</body>
+
+</html>
